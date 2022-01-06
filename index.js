@@ -12,11 +12,11 @@
 // Part 1 answer 👇🏻 ...
 
 
-let fullName = "Tareq Saymeh"
-let yearOfBirth = "1981"
-let hobby = "Swimming"
-let funFact = "I love camping"
-let image = "https://media-exp1.licdn.com/dms/image/C5603AQFZgDBiVy9vXg/profile-displayphoto-shrink_100_100/0/1516588122978?e=1646870400&v=beta&t=eqyo77hVhrVJRGlucc3oYdBoyRoY1H9wwGh0bCM0A2s";
+let fullName = "Tareq Saymeh";
+let yearOfBirth = 1981;
+let hobby = "Swimming";
+let funFact = "I love camping";
+const image = "https://media-exp1.licdn.com/dms/image/C5603AQFZgDBiVy9vXg/profile-displayphoto-shrink_100_100/0/1516588122978?e=1646870400&v=beta&t=eqyo77hVhrVJRGlucc3oYdBoyRoY1H9wwGh0bCM0A2s";
   
 
 
@@ -51,16 +51,16 @@ const hobbyString = `My Hobby is ${hobby}`
 
 let stars = 0;
 
-function incrementBy1() {stars+
+function incrementBy1() {stars++
   // Increment stars by 1 👇🏻
 }
-function decrementBy1() {stars-
+function decrementBy1() {stars--
   // decrement stars by 1 👇🏻
 }
 
-function incrementBy2() {stars++
+function incrementBy2() {stars += 2
   // Increment stars by 2 👇🏻
 }
-function decrementBy2() {stars--
+function decrementBy2() {stars -=2
   // decrement stars by 2 👇🏻
 }
